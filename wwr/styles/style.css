@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Poppins&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -30,13 +33,21 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #005f73;
 }
 
 body {
-    background-color: white; 
+    background-color: white;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -47,6 +58,10 @@ header {
     background-color: #005f73;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -56,18 +71,25 @@ header {
 
 .msg {
     background-color: #026164;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: white;
+    font-family: "Gloria Hallelujah", Verdana, Tahoma;
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 
 footer {
     background-color: #005f73;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -83,20 +105,43 @@ footer p {
     font-size: 1.2em;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .home-title {
     color:#005f73;
+    font-family: "Gloria Hallelujah", Verdana, Tahoma;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color:#005f73;
 }
 
+h2 {
+    margin: 0;
+}
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0; 
+}
+
+.card-img{
+    border: 10px solid #f5de73;
+
+}
