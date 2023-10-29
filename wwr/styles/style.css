@@ -62,7 +62,7 @@ nav a:hover {
     text-align: center;
 }
 
-main.home-grid {
+.home-grid {
     display: grid;
     grid-template-columns: repeat(10,1fr);
 }
@@ -98,18 +98,13 @@ header {
 }
 
 .book, .join {
-    background-color: #005f73;
-    color: white;
+    background-color: #f5de73;
+    color: #026164;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-}
-
-.join{
-    border-style: solid;
-    border-color: white;
 }
 
 .book:hover, .join:hover {
