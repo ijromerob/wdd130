@@ -119,6 +119,10 @@ nav a:hover {
     width: 60%;
     grid-column: 2/3;
     grid-row: 3/4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .coding-example2 {
